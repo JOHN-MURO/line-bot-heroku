@@ -40,9 +40,16 @@ def handle_join(event):
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
+    group_id = getattr(event.source, "group_id", None)
+    if group_id:
+        print(f"💬 メッセージ受信時のグループID: {group_id}")
+        reply_text = f"あなたのメッセージ：{event.message.text}\nグループIDは {group_id} です"
+    else:
+        reply_text = f"あなたのメッセージ：{event.message.text}\nこのトークにはグループIDはありません。"
+
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text=f"あなたのメッセージ：{event.message.text}")
+        TextSendMessage(text=reply_text)
     )
 
 if __name__ == "__main__":
