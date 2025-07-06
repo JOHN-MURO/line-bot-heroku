@@ -1,0 +1,23 @@
+■チャネルシークレット
+
+654ac08e8968540fb196b088872e4582
+
+■チャネルアクセストークン
+
+K8zU1TzCE83lgdIblvZT21+lbPu+HGl6wLbrGxXBAGPHAcuXGP7A40/1qTuJfSRwuMkKNEF/YR7mqhFY3iJZsH4l9c31li7xwBZdKnAQjBecgl1Wm9uuLKJJ1+IK8wb9jboJsj8tda4/dUAhEGm+zAdB04t89/1O/w1cDnyilFU=
+
+
+
+■Google cloud consoleメールアドレス
+
+id-bot@event-chat-bot.iam.gserviceaccount.com
+
+
+■Gmail
+share.purpose1234@gmail.com
+Qwerty4646
+
+------
+
+■ver4
+・あいさつ
